@@ -1,0 +1,9 @@
+                                                                          
+  dBBBBBb     dBP dBBBP  dBBBb  dBBBb  dBBBBP dBBBBP dBBBBb  dBBBb  dBBBBP
+       BB               dP  dP dP  dP dB'.BP dB'.BP     dB' dP  dP dB'.BP 
+   dBP BB   dBP dBP    dPBBBP dPBBBP dB:.BP dB:.BP dBP dB' dPBBBP dB:.BP  
+  dBP  BB  dBP dBP    dP  dP dP  dP dB'.BP dB'.BP dBP dB' dP  dP dB'.BP   
+ dBBBBBBB dBP dBBBBP  VBBBP  VBBBP dBBBBP dBBBBP dBBBBB'  VBBBP dBBBBP    
+                                                                          
+                    MODESWITCH 1111:1111 -> a69c:8d81                     
+                                                                          
