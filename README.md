@@ -22,6 +22,9 @@ a69c:8d81
 
 The device can then be handled by the AIC8800D80 driver.
 
+## Screenshot
+![AIC8800D80 ModeSwitch](assets/screenshot.png)
+
 ## What it does
 
 The installer:
