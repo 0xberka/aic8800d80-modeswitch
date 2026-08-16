@@ -75,6 +75,14 @@ It then reloads and triggers udev.
 
 > The uninstaller does not currently remove the AIC8800D80 driver.
 
+## Acknowledgements
+
+Special thanks to **DeBaas** from the Linux Mint Forums for documenting
+the AIC8800D80 `1111:1111` to `a69c:8d81` USB mode-switch workaround
+that inspired this project.
+
+https://forums.linuxmint.com/viewtopic.php?p=2796160
+
 ## License
 
 See the repository license for details.
