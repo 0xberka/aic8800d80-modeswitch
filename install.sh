@@ -99,7 +99,7 @@ else
             error
             echo
             echo "See the installation log at $AIC8800D80_LOG"
-            rm -rf "$AIC8800D80_REPO"
+            # rm -rf "$AIC8800D80_REPO"
             exit 1
         fi
     else
