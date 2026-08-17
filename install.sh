@@ -90,18 +90,17 @@ else
 
         step "Installing AIC8800D80 driver"
 
-        AIC8800D80_LOG="$AIC8800D80_REPO/install.log"
+        AIC8800D80_LOG="/var/log/aic8800d80-install.log"
 
-        if ( cd "$AIC8800D80_REPO" && ./install.sh > "AIC8800D80_LOG" 2>&1 ); then
+        if ( cd "$AIC8800D80_REPO" && ./install.sh > "$AIC8800D80_LOG" 2>&1 ); then
             success
-            rm -rf "$AIC8800D80_REPO"
         else
             error
             echo
-            echo "See the installation log at $AIC8800D80_LOG"
-            # rm -rf "$AIC8800D80_REPO"
-            exit 1
+            info "See the installation log at $AIC8800D80_LOG"
+            echo
         fi
+        rm -rf "$AIC8800D80_REPO"
     else
         info "AIC8800D80 driver installation skipped."
         echo
